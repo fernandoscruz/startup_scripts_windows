@@ -1,4 +1,6 @@
-﻿echo "Aguardando para iniciar script"
+﻿#By Fernando Cruz - fernandos.cruzz@gmail.com
+
+echo "Aguardando para iniciar script"
 Start-Sleep -Seconds 40
 echo "Iniciando script"
 
