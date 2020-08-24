@@ -138,3 +138,10 @@ Get-WebStatus $url
  } until ($HTTP_Status -ne "200")
 
 
+echo "start Jboss"
+
+Function startapp {
+    Start-Sleep -Seconds 2
+    start-service -Name JBAS60SVC}
+
+startapp "&" Get-WebStatus $url
